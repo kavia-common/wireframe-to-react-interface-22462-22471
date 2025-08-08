@@ -4,6 +4,7 @@ import "./App.css";
 import "./design-system.css";
 import CoverPage from "./pages/CoverPage";
 import Screen86Page from "./pages/Screen86Page";
+import Screen93Page from "./pages/Screen93Page";
 
 // PUBLIC_INTERFACE
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<CoverPage />} />
           <Route path="/86" element={<Screen86Page />} />
+          <Route path="/93" element={<Screen93Page />} />
           {/* Add more routes as additional screens are created */}
         </Routes>
       </div>
